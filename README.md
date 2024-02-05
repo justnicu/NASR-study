@@ -15,7 +15,8 @@ To produce the best results (a bit better than the ones presented in the paper) 
 ## Installation
 1 - Follow the instructions found in the ``setup.sh`` file.
 
-2 - Check that inside the data/original_data folder there are 7 files: puzzles0_kaggle, puzzles2_17_clue, puzzles7_serg_benchmark, features.pt, features_img.pt, labels.pt, and perm.pt.
+2 - [Download SatNet dataset](https://powei.tw/sudoku.zip) and unzip the data (4 files) then place `features.pt`, `features_img.pt`, `labels.pt`, and `perm.pt` in `data/original_data`.
+Check that inside the ``data/original_data`` folder there are 7 files: `puzzles0_kaggle`, `puzzles2_17_clue`, `puzzles7_serg_benchmark`, `features.pt`, `features_img.pt`, `labels.pt`, and `perm.pt`.
 
 3 - Install [Prolog](https://www.swi-prolog.org/Download.html). To check if the Prolog installation is succesfull try to call Prolog from terminal by typing ``swipl`` (to exit prolog type ``halt.``).
 
