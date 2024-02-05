@@ -42,8 +42,8 @@ Additional Notes:
 ### Main experiment on multiple_sol dataset
 
 NOTE: 
-* The evaluation scripts were changed so that the ``--gpu-id`` argument is largely ignored. The effect is that there is no more GPU acceleration as everything is done on the CPU.
-* The ``--workers 0`` argument was added to solve paralelisation errors caused in Windows.
+* The evaluation scripts were changed so that the ``--gpu-id`` argument is largely ignored. The effect is that there is no more GPU acceleration as everything is done by the CPU.
+* The ``--workers 0`` argument was added to solve parallelization errors caused by Windows.
 * We cannot guarantee that the training scripts work as those have not been properly tested.
 
 | Type | Module | Script |
