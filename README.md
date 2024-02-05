@@ -25,6 +25,7 @@ NOTE: if unable to install prolog we provide another symbolic-solver for Sudoku:
 NOTE: if you have prolog related issues at runtime try installing pyswip using the following command ``pip install git+https://github.com/yuce/pyswip@master#egg=pyswip``.
 
 4 - Install pytorch. The authors recommend running ``conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia``.
+
 NOTE: if you encounter errors at runtime like I did try ``pip install torchvision torchaudio`` and installing the [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads?target_os=Windows).
 
 5 - Run ``python src/sudoku_data.py --solver default`` to generate the data. If there were problems installing prolog use ``--solver backtrack`` (it might take longer to run or even cause crashes). More options/statistics available in ``src/sudoku_data.py``.
