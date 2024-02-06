@@ -1,5 +1,8 @@
 #  Neural Attention for Symbolic Reasoning - study
+
 This repository looks at ``Learning Where and When to Reason in Neuro-Symbolic Inference`` (ICLR-2023) authored by Cristina Cornelio, Jan Stuehmer, Shell Xu Hu, Timothy Hospedales.
+
+# [Colab](https://colab.research.google.com/drive/15S9Thy-ey9mPQDrQaby0p7AujHajXort#scrollTo=99V1kPyhEtQm)
 
 The paper can be found here: [ICLR publication](https://openreview.net/forum?id=en9V5F8PR-).
 
