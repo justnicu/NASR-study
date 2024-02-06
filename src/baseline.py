@@ -52,8 +52,8 @@ def validate(val_loader, model, args, epoch=None, time_begin=None):
     time_begin = time()
     with torch.no_grad():
         for _, (images, target) in tqdm(enumerate(val_loader)):
-            images = images.to(args.gpu_id)
-            target = target.to(args.gpu_id)
+            #images = images.to(args.gpu_id)
+            #target = target.to(args.gpu_id)
             target = target.argmax(dim=2)
             t1 = time()
             boards = model(images)
@@ -111,7 +111,7 @@ def main():
     # Model
     model = SequentialPerception()
     model.load_state_dict(torch.load(args.ckpt, map_location='cpu'))
-    model.to(args.gpu_id)
+    #model.to(args.gpu_id)
 
     # Main loop
     print("Beginning testing")
