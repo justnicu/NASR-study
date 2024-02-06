@@ -68,7 +68,7 @@ The datasets available are: [`big_kaggle`, `minimal_17`, `multiple_sol`, `satnet
 
 | Experiment | Script |
 | --- | --- |
-| Symbolic Baseline | `python src/baseline.py --data multiple_sol --solver prolog` |
+| Symbolic Baseline | `python src/baseline.py --data multiple_sol --solver prolog --workers 0` |
 | Ablation | (see instruction in `baseline_ablation.py`) `python src/baseline_ablation.py` |
 | Efficiency | `python src/efficiency.py  --solver prolog --data multiple_sol --nasr pretrained --gpu-id 0` |
 | Blur noise (blur with sigma in `[0.8,0.9]`) | Add `--transform-data blur --transform-data-param 0.8` to Eval-NASR with or without RL |
