@@ -5,7 +5,7 @@ The paper can be found here: [ICLR publication](https://openreview.net/forum?id=
 
 Their original repo can found on [Cornelio Cristina's github](https://github.com/corneliocristina/NASR) and on [SamsungLabs github](https://github.com/SamsungLabs/NASR).
 
-In the pursuit to understand this exciting subject and to showcase it to our peers we have created the following [report]() and [presentation]().
+In the pursuit to understand this exciting subject and to showcase it to our peers we have created the following [report](https://github.com/justnicu/NASR-study/blob/main/A%20Study%20on%20the%20Neural%20Attention%20for%20Symbolic%20Reasoning%20Architecture.pdf) and [presentation](https://github.com/justnicu/NASR-study/blob/main/NASR.pptx).
 
 [Please note that the code and instructions found in this repository were slightly modified from the original in order to make it compatible with a Windows machine without a graphics card with CUDA cores.]
 
